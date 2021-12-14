@@ -29,6 +29,8 @@ h4{
     background-color: #d1c7c7;
     border-radius: 1rem;
     margin-bottom:5rem;
+    -webkit-box-shadow: 11px 14px 21px 5px rgba(0,0,0,0.6); 
+    box-shadow: 11px 14px 21px 5px rgba(0,0,0,0.6);
 }
 #food-card img {
     height:100;
