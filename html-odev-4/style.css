@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Mono:wght@300;400;600&family=Smooch&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(116, 115, 115);
+}
+header {
+    text-align: center;
+    font-family:'Dancing Script',sans-serif;
+    font-size:2rem;
+    color:#caad78;
+}
+h4{
+    margin:1rem;
+}
+#food-card {
+
+    display:flex;
+    align-items: center;
+    flex-direction: column  ;
+    margin-top:5rem;   
+
+}
+.food-content {
+    padding:5rem;
+    background-color: #d1c7c7;
+    border-radius: 1rem;
+    margin-bottom:5rem;
+}
+#food-card img {
+    height:100;
+    width: 100%;
+}
+.prepare-info {
+    text-decoration: underline;
+    margin:1rem;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.need-gradients,.prepare {
+    margin:1rem;
+}
+footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10vh;
+    background-color: rgb(94, 94, 102);
+    text-align: center;
+    font-size:1.2rem;
+    color:#c09038;
+    font-weight: bold;
+}
